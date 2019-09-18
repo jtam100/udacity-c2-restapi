@@ -5,6 +5,8 @@ branch-defaults:
   ops-3-auth:
     environment: udacity-c2-restapi-dev
     group_suffix: null
+  test:
+    environment: udagram-tam-dev-dev
 deploy:
   artifact: ./www/Archive.zip
 environment-defaults:
